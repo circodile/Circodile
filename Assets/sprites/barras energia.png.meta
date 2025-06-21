@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: e6bfe919775f5674d9c8dd4d64db4096
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7228280965295495996
+    second: barras energia_0
+  - first:
+      213: -3770973185970533582
+    second: barras energia_1
+  - first:
+      213: 3678610691306275397
+    second: barras energia_2
+  - first:
+      213: 926995098929869086
+    second: barras energia_3
+  - first:
+      213: 3639368075025380604
+    second: barras energia_4
+  - first:
+      213: -4009337729548127649
+    second: barras energia_5
+  - first:
+      213: 8860019850356491141
+    second: barras energia_6
+  - first:
+      213: 4346872953917991776
+    second: barras energia_7
+  - first:
+      213: -7387964036420887194
+    second: barras energia_8
+  - first:
+      213: -4976170774414411645
+    second: barras energia_9
+  - first:
+      213: 5557970368913954784
+    second: barras energia_10
+  - first:
+      213: -1191269022636778951
+    second: barras energia_11
+  - first:
+      213: -17040021734500171
+    second: barras energia_12
+  - first:
+      213: 6924718461958379780
+    second: barras energia_13
+  - first:
+      213: -2093891707905528207
+    second: barras energia_14
+  - first:
+      213: 8682099220245341806
+    second: barras energia_15
+  - first:
+      213: 6018763415231963068
+    second: barras energia_16
+  - first:
+      213: -2299611191812122963
+    second: barras energia_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barras energia_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 113
+        width: 76
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c428d652ccffab90800000000000000
+      internalID: -7228280965295495996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 112
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b04b8eddfcaabc0800000000000000
+      internalID: -3770973185970533582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 79
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542c3420fec0d0330800000000000000
+      internalID: 3678610691306275397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 78
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e113e3c81295ddc00800000000000000
+      internalID: 926995098929869086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 92
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4f8c66bf1a18230800000000000000
+      internalID: 3639368075025380604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 80
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5276bdc398fb58c0800000000000000
+      internalID: -4009337729548127649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 92
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583886b8c1d15fa70800000000000000
+      internalID: 8860019850356491141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 80
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06be80ebbe1335c30800000000000000
+      internalID: 4346872953917991776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 92
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d95cb1adda87990800000000000000
+      internalID: -7387964036420887194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 80
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3883959ab0711fab0800000000000000
+      internalID: -4976170774414411645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 68
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e753476a90e12d40800000000000000
+      internalID: 5557970368913954784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 56
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93adec1b223c77fe0800000000000000
+      internalID: -1191269022636778951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 68
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8dc85c03673cff0800000000000000
+      internalID: -17040021734500171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 56
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4095e9e90ca891060800000000000000
+      internalID: 6924718461958379780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 68
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ea728e59001f2e0800000000000000
+      internalID: -2093891707905528207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 56
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e666b67bd330d7870800000000000000
+      internalID: 8682099220245341806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 44
+        width: 68
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf9408ff61f68350800000000000000
+      internalID: 6018763415231963068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barras energia_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6968e0ec32610e0800000000000000
+      internalID: -2299611191812122963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barras energia_0: -7228280965295495996
+      barras energia_1: -3770973185970533582
+      barras energia_10: 5557970368913954784
+      barras energia_11: -1191269022636778951
+      barras energia_12: -17040021734500171
+      barras energia_13: 6924718461958379780
+      barras energia_14: -2093891707905528207
+      barras energia_15: 8682099220245341806
+      barras energia_16: 6018763415231963068
+      barras energia_17: -2299611191812122963
+      barras energia_2: 3678610691306275397
+      barras energia_3: 926995098929869086
+      barras energia_4: 3639368075025380604
+      barras energia_5: -4009337729548127649
+      barras energia_6: 8860019850356491141
+      barras energia_7: 4346872953917991776
+      barras energia_8: -7387964036420887194
+      barras energia_9: -4976170774414411645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
