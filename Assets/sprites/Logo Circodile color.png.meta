@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 8a698ba850ac0cf46a3a63034659e72c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8508154307783586334
+    second: Logo Circodile color_0
+  - first:
+      213: 1297401825794309405
+    second: Logo Circodile color_1
+  - first:
+      213: 3875568765774202823
+    second: Logo Circodile color_2
+  - first:
+      213: -3603302319747802900
+    second: Logo Circodile color_3
+  - first:
+      213: 3712529638874421610
+    second: Logo Circodile color_4
+  - first:
+      213: 1944452198002271889
+    second: Logo Circodile color_5
+  - first:
+      213: -3275758805684559924
+    second: Logo Circodile color_6
+  - first:
+      213: 1393357838538931457
+    second: Logo Circodile color_7
+  - first:
+      213: -4928531754632532726
+    second: Logo Circodile color_8
+  - first:
+      213: 8093158859894064579
+    second: Logo Circodile color_9
+  - first:
+      213: 6926104413890174610
+    second: Logo Circodile color_10
+  - first:
+      213: -645571694079534878
+    second: Logo Circodile color_11
+  - first:
+      213: -7576023995129978066
+    second: Logo Circodile color_12
+  - first:
+      213: 103226909593024273
+    second: Logo Circodile color_13
+  - first:
+      213: 6827884903437114883
+    second: Logo Circodile color_14
+  - first:
+      213: 4426323401216479175
+    second: Logo Circodile color_15
+  - first:
+      213: -3569161249721780273
+    second: Logo Circodile color_16
+  - first:
+      213: 4479481345870651564
+    second: Logo Circodile color_17
+  - first:
+      213: 7463103176262936082
+    second: Logo Circodile color_18
+  - first:
+      213: -176617046207048721
+    second: Logo Circodile color_19
+  - first:
+      213: -7799754803272946227
+    second: Logo Circodile color_20
+  - first:
+      213: 3218717197698122891
+    second: Logo Circodile color_21
+  - first:
+      213: 118739274802944240
+    second: Logo Circodile color_22
+  - first:
+      213: -5489897201514452183
+    second: Logo Circodile color_23
+  - first:
+      213: 7151283558889483396
+    second: Logo Circodile color_24
+  - first:
+      213: 1560127989473380498
+    second: Logo Circodile color_25
+  - first:
+      213: 8888865051338244088
+    second: Logo Circodile color_26
+  - first:
+      213: -123942590233970177
+    second: Logo Circodile color_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo Circodile color_0
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2027
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1276a9c349031670800000000000000
+      internalID: 8508154307783586334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1076
+        width: 1031
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8571d91af7efdc0800000000000000
+      internalID: -3603302319747802900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color_6
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 755
+        width: 2668
+        height: 1231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf5051d8ba2a82d0800000000000000
+      internalID: -3275758805684559924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color_16
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 1559
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc77e3ce0cac77ec0800000000000000
+      internalID: -3569161249721780273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66d70ba509fef5b41be5e24fb96397e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo Circodile color_0: 8508154307783586334
+      Logo Circodile color_1: 1297401825794309405
+      Logo Circodile color_10: 6926104413890174610
+      Logo Circodile color_11: -645571694079534878
+      Logo Circodile color_12: -7576023995129978066
+      Logo Circodile color_13: 103226909593024273
+      Logo Circodile color_14: 6827884903437114883
+      Logo Circodile color_15: 4426323401216479175
+      Logo Circodile color_16: -3569161249721780273
+      Logo Circodile color_17: 4479481345870651564
+      Logo Circodile color_18: 7463103176262936082
+      Logo Circodile color_19: -176617046207048721
+      Logo Circodile color_2: 3875568765774202823
+      Logo Circodile color_20: -7799754803272946227
+      Logo Circodile color_21: 3218717197698122891
+      Logo Circodile color_22: 118739274802944240
+      Logo Circodile color_23: -5489897201514452183
+      Logo Circodile color_24: 7151283558889483396
+      Logo Circodile color_25: 1560127989473380498
+      Logo Circodile color_26: 8888865051338244088
+      Logo Circodile color_27: -123942590233970177
+      Logo Circodile color_3: -3603302319747802900
+      Logo Circodile color_4: 3712529638874421610
+      Logo Circodile color_5: 1944452198002271889
+      Logo Circodile color_6: -3275758805684559924
+      Logo Circodile color_7: 1393357838538931457
+      Logo Circodile color_8: -4928531754632532726
+      Logo Circodile color_9: 8093158859894064579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
