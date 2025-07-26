@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class CrocodileManager : MonoBehaviour
 {
@@ -92,21 +93,8 @@ public class CrocodileManager : MonoBehaviour
 
     void AttackPlayer()
     {
-        // Aquí puedes agregar animación de ataque
-        Debug.Log("¡Cocodrilo ataca al jugador!");
-
-        // Quitar vida al jugador
-        vidas_jugador playerHealth = player.GetComponent<vidas_jugador>();
-        if (playerHealth != null)
-        {
-            playerHealth.vidas--;
-
-            // Verificar si el jugador murió
-            if (playerHealth.vidas <= 0)
-            {
-                Destroy(player.gameObject);
-            }
-        }
+        Console.WriteLine("Se atacó al player");
+        player.GetComponent<vidas_jugador>().PerderVida();
     }
 
     void CheckLineOfSight()
@@ -128,7 +116,7 @@ public class CrocodileManager : MonoBehaviour
                 if (hit.transform == player)
                 {
                     vidas_jugador playerHealth = player.GetComponent<vidas_jugador>();
-                    bool playerIsAlive = playerHealth != null && playerHealth.vidas > 0;
+                    bool playerIsAlive = playerHealth != null && playerHealth.vida > 0;
 
                     if (playerIsAlive)
                     {

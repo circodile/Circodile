@@ -17,16 +17,6 @@ public class Jugador : MonoBehaviour
         velocidadActual = velocidadNormal;
     }
 
-    void Update()
-    {
-        // Ajustar velocidad seg�n hambre
-       /* if (hambreScript != null)
-        {
-            velocidadActual = (hambreScript.hambre < 20f) ? velocidadBaja : velocidadNormal;
-        }
-*/
-   
-    }
     void FixedUpdate()
     {
         float movX = Input.GetAxis("Horizontal");

@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System;
 
 public class vidas_jugador : MonoBehaviour
 {
@@ -45,6 +47,16 @@ public class vidas_jugador : MonoBehaviour
 
             // Activa/desactiva el corazón según si está dentro del rango de vidaTotal
             corazones[i].enabled = i < vidaTotal;
+        }
+    }
+
+    public void PerderVida()
+    {
+        Console.WriteLine("El player perdio vida");
+        vida--;
+        if(vida <= 0)
+        {
+            SceneManager.LoadSceneAsync(4); 
         }
     }
 }
