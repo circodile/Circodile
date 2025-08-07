@@ -12,7 +12,7 @@ public class MovCamara : MonoBehaviour
 
     //para reutilizar el script es necesario configuar el target, forwards y smothing en el visor
     public GameObject Target;
-    private Vector3 TargetPos;
+    public Vector3 TargetPos;
 
     public float forwards;
     public float smoothing;

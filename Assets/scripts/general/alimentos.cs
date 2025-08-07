@@ -57,10 +57,10 @@ public class Alimentos : MonoBehaviour
     }
 
     // ---------------------- VARIABLES INTERNAS ----------------------
-    private Hambre sistemaHambre;
-    private Sed sistemaSed;
-    private Comida comidaCercana;
-    private Bebida bebidaCercana;
+    public Hambre sistemaHambre;
+    public Sed sistemaSed;
+    public Comida comidaCercana;
+    public Bebida bebidaCercana;
 
     private float ultimoTiempo;
 
@@ -88,7 +88,7 @@ public class Alimentos : MonoBehaviour
         ultimoTiempo = Time.time;
     }
 
-    private void Update()
+    public void Update()
     {
         float delta = Time.time - ultimoTiempo;
         ultimoTiempo = Time.time;
@@ -157,53 +157,3 @@ public class Alimentos : MonoBehaviour
     }
 }
 
-
-/*
- cod cafa
-using UnityEngine;
-
-public class Sed : MonoBehaviour
-{
-    public float sedMaxima = 10f;
-    public float sedActual = 10f;
-    public float velocidadDeBajada = 0.01f;
-
-    public float mateMaximo = 3f;
-    public float mateActual = 3f;
-
-
-    void Update()
-    {
-        // Baja sed con el tiempo
-        sedActual -= velocidadDeBajada * Time.deltaTime;
-
-        // Limitar entre 0 y sedMaxima
-        sedActual = Mathf.Clamp(sedActual, 0f, sedMaxima);
-
-        // Ejemplo: si la sed es 0, hacemos algo
-        if (sedActual <= 0f)
-        {
-            Debug.Log("¡Estás deshidratado!");
-            // Aquí podrías empezar a quitar vida, mover más lento, etc.
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (mateActual > 0f)
-            {
-
-                sedActual = 10f; // Recupera 20 de sed
-                Debug.Log("Tomaste agua");
-                mateActual -= 1;
-                Debug.Log(mateActual);
-            }
-            else
-            {
-                Debug.Log("no hay mas agua");
-            }
-        }
-
-    }
-
-}
-*/

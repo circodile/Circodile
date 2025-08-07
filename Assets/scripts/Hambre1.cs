@@ -6,7 +6,7 @@ public class Hambre1 : MonoBehaviour
     public float hambre = 100f;
     public float velocidadBajada = 5f; // unidades por minuto
 
-    private Comida comidaCercana;
+    public Comida comidaCercana;
 
     void Update()
     {
@@ -30,7 +30,7 @@ public class Hambre1 : MonoBehaviour
         Debug.Log("Comiste. Hambre actual: " + hambre);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Comida"))
         {
@@ -38,7 +38,7 @@ public class Hambre1 : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Comida"))
         {

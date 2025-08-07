@@ -10,7 +10,7 @@ public class CrocodileManager : MonoBehaviour
     [SerializeField] private float minDistance;
     [SerializeField] private float speed;
 
-    private bool isFacingRight = false;
+    public bool isFacingRight = false;
 
 
     void Update()
@@ -21,7 +21,7 @@ public class CrocodileManager : MonoBehaviour
         Flip(isPlayerRight);
     }
 
-    private void Follow()
+    public void Follow()
     {
         if (Vector2.Distance(transform.position, player.position) > minDistance)
         {
@@ -33,12 +33,12 @@ public class CrocodileManager : MonoBehaviour
         }
     }
 
-    private void Attack()
+    public void Attack()
     {
         Debug.Log("Crocodile attacks!");
     }
 
-    private void Flip(bool isPlayerRight)
+    public void Flip(bool isPlayerRight)
     {
         if((isPlayerRight && !isFacingRight) || (!isPlayerRight && isFacingRight))
         {

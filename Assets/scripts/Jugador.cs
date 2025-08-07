@@ -6,8 +6,8 @@ public class Jugador : MonoBehaviour
     public float velocidadNormal = 5f;
     public float velocidadBaja = 2f;
 
-    private float velocidadActual;
-    private Rigidbody2D rb;
+    public float velocidadActual;
+    public Rigidbody2D rb;
    // private Alimentos hambreScript;
 
     void Start()

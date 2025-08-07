@@ -7,7 +7,7 @@ public class CambioDeEscenaTrigger : MonoBehaviour
     [Tooltip("Nombre sig escena")]
     public string nombreEscenaDestino;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Jugador"))
         {
