@@ -10,6 +10,8 @@ public class CrocodileManager : MonoBehaviour
     [SerializeField] private float minDistance;
     [SerializeField] private float speed;
 
+     
+
     public bool isFacingRight = false;
 
 
@@ -35,7 +37,7 @@ public class CrocodileManager : MonoBehaviour
 
     public void Attack()
     {
-        Debug.Log("Crocodile attacks!");
+        //Debug.Log("Crocodile attacks!");
     }
 
     public void Flip(bool isPlayerRight)
@@ -48,4 +50,6 @@ public class CrocodileManager : MonoBehaviour
             transform.localScale = scale;
         }
     }
+
+
 }

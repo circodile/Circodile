@@ -27,7 +27,7 @@ public class Alimentos : MonoBehaviour
         {
             hambre += cantidad;
             hambre = Mathf.Clamp(hambre, 0, 100);
-           // Debug.Log($"Comiste. Hambre actual: {hambre}");
+            Debug.Log($"Comiste. Hambre actual: {hambre}");
         }
 
         public override void Beber(float cantidad) { } // No aplica
@@ -50,7 +50,7 @@ public class Alimentos : MonoBehaviour
             sed += cantidad;
             sed = Mathf.Clamp(sed, 0, 100);
             mateActual--;
-            //Debug.Log($"Bebiste. Sed actual: {sed}, Mate: {mateActual}");
+            Debug.Log($"Bebiste. Sed actual: {sed}, Mate: {mateActual}");
         }
 
         public override void Comer(float cantidad) { } // No aplica
@@ -108,7 +108,7 @@ public class Alimentos : MonoBehaviour
             sistemaHambre.Comer(comidaCercana.valorNutricional);
             Destroy(comidaCercana.gameObject);
             comidaCercana = null;
-          //  Debug.Log("Comiste comida.");
+            Debug.Log("Comiste.");
         }
 
         // Beber
@@ -120,7 +120,7 @@ public class Alimentos : MonoBehaviour
             }
             else
             {
-               // Debug.Log("¡No hay agua en el mate!");
+                Debug.Log("¡No hay agua en el mate!");
             }
         }
 
@@ -128,7 +128,7 @@ public class Alimentos : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && bebidaCercana != null)
         {
             sistemaSed.mateActual = sistemaSed.mateMaximo;
-           //Debug.Log("Recargaste el mate.");
+            Debug.Log("Recargaste el mate.");
         }
     }
 

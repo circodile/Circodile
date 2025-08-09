@@ -22,6 +22,7 @@ public class vidas_jugador : MonoBehaviour
         {
             // Resta una vida al jugador
             vida--;
+            Debug.Log("Vida del jugador: " + vida);
             ActualizarCorazones();
 
             if (vida <= 0)
