@@ -169,8 +169,8 @@ TextureImporter:
         serializedVersion: 2
         x: 15
         y: 113
-        width: 76
-        height: 15
+        width: 99
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,8 +213,8 @@ TextureImporter:
         serializedVersion: 2
         x: 23
         y: 79
-        width: 68
-        height: 24
+        width: 91
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,12 +255,12 @@ TextureImporter:
       name: barras energia_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 92
-        width: 15
-        height: 13
+        x: 145
+        y: 93
+        width: 49
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: barras energia_5
       rect:
         serializedVersion: 2
-        x: 148
-        y: 80
-        width: 15
-        height: 13
+        x: 143
+        y: 81
+        width: 53
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: barras energia_6
       rect:
         serializedVersion: 2
-        x: 163
-        y: 92
-        width: 15
-        height: 13
+        x: 147
+        y: 69
+        width: 49
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,204 +313,6 @@ TextureImporter:
       bones: []
       spriteID: 583886b8c1d15fa70800000000000000
       internalID: 8860019850356491141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_7
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 80
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06be80ebbe1335c30800000000000000
-      internalID: 4346872953917991776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_8
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 92
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66d95cb1adda87990800000000000000
-      internalID: -7387964036420887194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_9
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 80
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3883959ab0711fab0800000000000000
-      internalID: -4976170774414411645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_10
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 68
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e753476a90e12d40800000000000000
-      internalID: 5557970368913954784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_11
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 56
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93adec1b223c77fe0800000000000000
-      internalID: -1191269022636778951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_12
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 68
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b8dc85c03673cff0800000000000000
-      internalID: -17040021734500171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_13
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 56
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4095e9e90ca891060800000000000000
-      internalID: 6924718461958379780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_14
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 68
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17ea728e59001f2e0800000000000000
-      internalID: -2093891707905528207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barras energia_15
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 56
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e666b67bd330d7870800000000000000
-      internalID: 8682099220245341806
       vertices: []
       indices: 
       edges: []

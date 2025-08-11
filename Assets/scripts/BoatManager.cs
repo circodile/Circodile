@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // <- IMPORTANTE para cambiar de escena
 
 public class BoatManager : MonoBehaviour
 {
@@ -21,9 +22,6 @@ public class BoatManager : MonoBehaviour
     [Header("Configuración")]
     public float interactionDistance = 3f;
     public KeyCode buildKey = KeyCode.F;
-
-    [Header("UI de victoria")]
-    public GameObject winCanvas; // <- asigna aquí tu Canvas "Ganaste"
 
     private Transform player;
     private bool isPlayerNear;
@@ -56,10 +54,6 @@ public class BoatManager : MonoBehaviour
             else
                 Debug.LogWarning($"visualIndicator no asignado para {part.partName}");
         }
-
-        // Aseguramos que el canvas esté apagado al iniciar
-        if (winCanvas != null)
-            winCanvas.SetActive(false);
     }
 
     private void Update()
@@ -113,11 +107,8 @@ public class BoatManager : MonoBehaviour
 
         if (IsBoatComplete())
         {
-            Debug.Log("¡Bote completado!");
-            if (winCanvas != null)
-                winCanvas.SetActive(true); // <- activamos el Canvas
-            Time.timeScale = 0f; // <- pausa el juego
-            Debug.Log(" Mostrando pantalla de victoria...");
+            Debug.Log("¡Bote completado! Cargando escena 'Gano'...");
+            SceneManager.LoadScene("Gano"); // <- Aquí cargamos tu escena
         }
         else if (!builtSomething)
         {
@@ -185,4 +176,10 @@ public class BoatManager : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, interactionDistance);
     }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); //Guarda el progreso del barco
+    }
+
 }

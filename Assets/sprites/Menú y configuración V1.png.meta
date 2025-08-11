@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: c69fc4d008caf9e4fbd3dac4af9caea2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8645910894066628678
+    second: "Men\xFA y configuraci\xF3n V1_0"
+  - first:
+      213: -4269277208891488291
+    second: "Men\xFA y configuraci\xF3n V1_1"
+  - first:
+      213: 5701434354752851516
+    second: "Men\xFA y configuraci\xF3n V1_2"
+  - first:
+      213: -5558162294274147570
+    second: "Men\xFA y configuraci\xF3n V1_3"
+  - first:
+      213: 4940502100090259004
+    second: "Men\xFA y configuraci\xF3n V1_4"
+  - first:
+      213: -7409810871370941495
+    second: "Men\xFA y configuraci\xF3n V1_5"
+  - first:
+      213: -3267368222852792451
+    second: "Men\xFA y configuraci\xF3n V1_6"
+  - first:
+      213: -49947538652957941
+    second: "Men\xFA y configuraci\xF3n V1_7"
+  - first:
+      213: 6460870569371403225
+    second: "Men\xFA y configuraci\xF3n V1_8"
+  - first:
+      213: 6368009043923563341
+    second: "Men\xFA y configuraci\xF3n V1_9"
+  - first:
+      213: -4233877500916895993
+    second: "Men\xFA y configuraci\xF3n V1_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_1"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 83
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd70a548ffa70c4c0800000000000000
+      internalID: -4269277208891488291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_2"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 79
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e804196509f1f40800000000000000
+      internalID: 5701434354752851516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_3"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 87
+        width: 145
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bb1dd77d07dd2b0800000000000000
+      internalID: -5558162294274147570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_4"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 54
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3683ffeb70309440800000000000000
+      internalID: 4940502100090259004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_5"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 139
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb7b1775401b2990800000000000000
+      internalID: -7409810871370941495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_6"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 24
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fb57e99e9f7a2d0800000000000000
+      internalID: -3267368222852792451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_7"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 25
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b037f2d6afc8e4ff0800000000000000
+      internalID: -49947538652957941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_8"
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 21
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3882b3d8f99a950800000000000000
+      internalID: 6460870569371403225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_9"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 15
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43f98d7c76bf5850800000000000000
+      internalID: 6368009043923563341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_10"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 31
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f645f48de3e35c0800000000000000
+      internalID: -4233877500916895993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_11"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 81
+        width: 102
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8fdc60c529ff44881550a0df67fcdd
+      internalID: -689723337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 132
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269061c2de5c1844a88c09ee761fad0
+      internalID: 766672360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA y configuraci\xF3n V1_13"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 135
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe312063089b4ca49a598bc4c614580d
+      internalID: -671225478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dcc5d2aaee428794ca614d37cb0f9b8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Men\xFA y configuraci\xF3n V1_0": 8645910894066628678
+      "Men\xFA y configuraci\xF3n V1_1": -4269277208891488291
+      "Men\xFA y configuraci\xF3n V1_10": -4233877500916895993
+      "Men\xFA y configuraci\xF3n V1_11": -689723337
+      "Men\xFA y configuraci\xF3n V1_12": 766672360
+      "Men\xFA y configuraci\xF3n V1_13": -671225478
+      "Men\xFA y configuraci\xF3n V1_2": 5701434354752851516
+      "Men\xFA y configuraci\xF3n V1_3": -5558162294274147570
+      "Men\xFA y configuraci\xF3n V1_4": 4940502100090259004
+      "Men\xFA y configuraci\xF3n V1_5": -7409810871370941495
+      "Men\xFA y configuraci\xF3n V1_6": -3267368222852792451
+      "Men\xFA y configuraci\xF3n V1_7": -49947538652957941
+      "Men\xFA y configuraci\xF3n V1_8": 6460870569371403225
+      "Men\xFA y configuraci\xF3n V1_9": 6368009043923563341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

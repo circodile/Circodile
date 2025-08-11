@@ -225,6 +225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadNormal: 1.2
   velocidadBaja: 0.5
+  velocidadActual: 0
+  rb: {fileID: 0}
 --- !u!114 &373397662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9727304ccd8b7140a8043cdfd35b114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comidaCercana: {fileID: 0}
+  bebidaCercana: {fileID: 0}
 --- !u!19719996 &373397663
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -785,6 +789,7 @@ MonoBehaviour:
   player: {fileID: 373397660}
   minDistance: 0.5
   speed: 0.6
+  isFacingRight: 0
 --- !u!50 &1028610205
 Rigidbody2D:
   serializedVersion: 5

@@ -60,4 +60,11 @@ public class vidas_jugador : MonoBehaviour
             SceneManager.LoadSceneAsync(4); 
         }
     }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); // Mantiene la vida al cambiar escena
+    }
+
 }
+

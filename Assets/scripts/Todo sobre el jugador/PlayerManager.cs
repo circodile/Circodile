@@ -27,13 +27,15 @@ public class PlayerManager : MonoBehaviour
         }
         Instance = this;
 
+        DontDestroyOnLoad(gameObject); // persistente
+
         playerMovement = GetComponent<Jugador>();
         playerNeeds = GetComponent<Alimentos>();
         playerHealth = GetComponent<vidas_jugador>();
 
-        
         originalSpeed = playerMovement.velocidadNormal;
     }
+
 
     private void Update()
     {
