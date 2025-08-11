@@ -1160,7 +1160,10 @@ MonoBehaviour:
   velocidadNormal: 1
   velocidadBaja: 0.5
   velocidadActual: 0
-  rb: {fileID: 0}
+  rb: {fileID: 805028004}
+  animator: {fileID: 805028001}
+  parametroDireccion: Direccion
+  parametroMovimiento: Movement
 --- !u!50 &805028004
 Rigidbody2D:
   serializedVersion: 5
@@ -1232,7 +1235,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.3, y: 0.32}
+  m_Size: {x: 0.5, y: 0.8}
   m_EdgeRadius: 0
 --- !u!114 &805028006
 MonoBehaviour:
@@ -1293,7 +1296,10 @@ MonoBehaviour:
   vida: 3
   corazonLleno: {fileID: 0}
   corazonVacio: {fileID: 0}
-  corazones: []
+  corazones:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &953486225
 GameObject:
   m_ObjectHideFlags: 0
