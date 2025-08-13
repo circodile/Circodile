@@ -4,17 +4,20 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Collider2D))]
 public class CambioDeEscenaTrigger : MonoBehaviour
 {
-    [Tooltip("Nombre sig escena")]
+    [Tooltip("Nombre de la escena de destino")]
     public string nombreEscenaDestino;
 
-    public void OnTriggerEnter2D(Collider2D other)
+    [Tooltip("Posición donde aparecerá el jugador en la nueva escena")]
+    public Vector3 posicionSpawnJugador;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Jugador"))
         {
             if (!string.IsNullOrEmpty(nombreEscenaDestino))
             {
-                Debug.Log("Cambiando a la escena: " + nombreEscenaDestino);
-                SceneManager.LoadScene(nombreEscenaDestino);
+                Debug.Log("Cargando escena aditiva: " + nombreEscenaDestino);
+                SceneTransitionManager.Instance.ChangeSceneAdditive(nombreEscenaDestino, posicionSpawnJugador);
             }
             else
             {

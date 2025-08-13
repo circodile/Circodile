@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour
         }
         Instance = this;
 
-        DontDestroyOnLoad(gameObject); // persistente
+        DontDestroyOnLoad(this.gameObject); // persistente
 
         playerMovement = GetComponent<Jugador>();
         playerNeeds = GetComponent<Alimentos>();

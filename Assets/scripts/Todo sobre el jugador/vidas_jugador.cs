@@ -63,7 +63,7 @@ public class vidas_jugador : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject); // Mantiene la vida al cambiar escena
+        DontDestroyOnLoad(this.gameObject); // Mantiene la vida al cambiar escena
     }
 
 }
