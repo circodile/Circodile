@@ -3,8 +3,8 @@ using UnityEngine;
 public class Jugador : MonoBehaviour
 {
     [Header("Movimiento")]
-    public float velocidadNormal = 5f;
-    public float velocidadBaja = 2f;
+    public float velocidadNormal = 10f;
+    public float velocidadBaja = 10f;
     public float velocidadActual;
     public Rigidbody2D rb;
     public Animator animator;

@@ -133,18 +133,18 @@ public class BoatManager : MonoBehaviour
     {
         if (Inventory.instance == null) return false;
 
-        int removed = 0;
         for (int i = 0; i < amount; i++)
         {
             Item itemToRemove = Inventory.instance.items.Find(x => x != null && x.name == item.name);
-            if (itemToRemove != null)
+            if (itemToRemove == null) return false;
+
+            if (!Inventory.instance.RemoveItem(itemToRemove))
             {
-                Inventory.instance.RemoveItem(itemToRemove);
-                removed++;
+                Debug.LogWarning($"Fallo al remover {item.name}");
+                return false;
             }
-            else break;
         }
-        return removed == amount;
+        return true;
     }
 
     private bool IsPartComplete(BoatPart part)
