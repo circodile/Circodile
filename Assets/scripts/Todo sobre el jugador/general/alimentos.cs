@@ -27,6 +27,7 @@ public class Alimentos : MonoBehaviour
         {
             hambre += cantidad;
             hambre = Mathf.Clamp(hambre, 0, 100);
+            sed -= 40;
             Debug.Log($"Comiste. Hambre actual: {hambre}");
         }
 
@@ -80,6 +81,9 @@ public class Alimentos : MonoBehaviour
         sistemaSed = new Sed();
     }
 
+
+
+
     private void Start()
     {
         sistemaHambre = new Hambre();
@@ -87,6 +91,8 @@ public class Alimentos : MonoBehaviour
 
         ultimoTiempo = Time.time;
     }
+
+
 
     public void Update()
     {
@@ -132,6 +138,9 @@ public class Alimentos : MonoBehaviour
         }
     }
 
+
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Comida"))
@@ -143,6 +152,9 @@ public class Alimentos : MonoBehaviour
             bebidaCercana = other.GetComponent<Bebida>();
         }
     }
+
+
+
 
     private void OnTriggerExit2D(Collider2D other)
     {
