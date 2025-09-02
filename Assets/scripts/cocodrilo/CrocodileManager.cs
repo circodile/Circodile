@@ -4,38 +4,53 @@ using UnityEngine;
 public class CrocodileManager : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    [SerializeField] private float minDistance = 1f;
     [SerializeField] private float speed = 2f;
+    [SerializeField] private float updateInterval = 5f; // Tiempo en segundos para actualizar la posición objetivo
 
     public bool isFacingRight = false;
-
     private Rigidbody2D rb;
+    private Vector2 targetPosition;
+    private float updateTimer;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.freezeRotation = true;
+        DontDestroyOnLoad(gameObject);
 
-        DontDestroyOnLoad(gameObject); // El cocodrilo sigue persiguiendo entre escenas
+        // Inicializar la primera posición objetivo
+        if (player != null)
+        {
+            targetPosition = player.position;
+        }
+        updateTimer = updateInterval;
     }
-
 
     private void FixedUpdate()
     {
-        Follow();
+        UpdateTargetPosition();
+        MoveToTarget();
 
-        bool isPlayerRight = transform.position.x < player.position.x;
-        Flip(isPlayerRight);
+        bool isTargetRight = transform.position.x < targetPosition.x;
+        Flip(isTargetRight);
     }
 
-    private void Follow()
+    private void UpdateTargetPosition()
     {
-        if (Vector2.Distance(transform.position, player.position) > minDistance)
+        updateTimer -= Time.fixedDeltaTime;
+
+        if (updateTimer <= 0f && player != null)
         {
-            Vector2 newPos = Vector2.MoveTowards(rb.position, player.position, speed * Time.fixedDeltaTime);
-            rb.MovePosition(newPos);
+            targetPosition = player.position;
+            updateTimer = updateInterval;
         }
+    }
+
+    private void MoveToTarget()
+    {
+        Vector2 newPos = Vector2.MoveTowards(rb.position, targetPosition, speed * Time.fixedDeltaTime);
+        rb.MovePosition(newPos);
     }
 
     public void Attack()
@@ -55,9 +70,9 @@ public class CrocodileManager : MonoBehaviour
         }
     }
 
-    private void Flip(bool isPlayerRight)
+    private void Flip(bool isTargetRight)
     {
-        if ((isPlayerRight && !isFacingRight) || (!isPlayerRight && isFacingRight))
+        if ((isTargetRight && !isFacingRight) || (!isTargetRight && isFacingRight))
         {
             isFacingRight = !isFacingRight;
             Vector3 scale = transform.localScale;

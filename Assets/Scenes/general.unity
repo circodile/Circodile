@@ -1055,8 +1055,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 805028000}
-  minDistance: 0.5
   speed: 0.6
+  updateInterval: 3
   isFacingRight: 0
 --- !u!212 &337749988
 SpriteRenderer:
@@ -2542,12 +2542,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7a25fa29ad26b6d4d8cbf86cd4661ba2, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7a25fa29ad26b6d4d8cbf86cd4661ba2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4192,7 +4192,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -3770973185970533582, guid: e6bfe919775f5674d9c8dd4d64db4096, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4852,6 +4852,7 @@ GameObject:
   - component: {fileID: 1546068465}
   - component: {fileID: 1546068464}
   - component: {fileID: 1546068463}
+  - component: {fileID: 1546068467}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -4948,6 +4949,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1546068467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546068462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hambre: {fileID: 926339931}
+  Sed: {fileID: 1443358570}
+  alimentos: {fileID: 0}
 --- !u!1 &1564872157
 GameObject:
   m_ObjectHideFlags: 0
@@ -5293,7 +5309,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 926995098929869086, guid: e6bfe919775f5674d9c8dd4d64db4096, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

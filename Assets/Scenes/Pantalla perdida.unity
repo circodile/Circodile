@@ -251,10 +251,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -482,8 +482,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146, y: -169}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -384, y: -320}
+  m_SizeDelta: {x: 530.44, y: 123.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919655889
 MonoBehaviour:
@@ -704,8 +704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2}
-  m_SizeDelta: {x: 1500, y: 1000}
+  m_AnchoredPosition: {x: -0.0041199, y: -0.0002594}
+  m_SizeDelta: {x: 3943.5, y: 2460.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138470859
 MonoBehaviour:
@@ -781,8 +781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 118, y: -170}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 372, y: -330}
+  m_SizeDelta: {x: 571.84, y: 162.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273416336
 MonoBehaviour:
@@ -971,8 +971,8 @@ Transform:
   m_GameObject: {fileID: 1457181640}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.838, y: 118.03001, z: 0}
-  m_LocalScale: {x: 415.89432, y: 309.8154, z: 40.7}
+  m_LocalPosition: {x: 17, y: 373, z: 0}
+  m_LocalScale: {x: 1148.201, y: 1145.2637, z: 40.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 206115727}
@@ -1061,8 +1061,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
