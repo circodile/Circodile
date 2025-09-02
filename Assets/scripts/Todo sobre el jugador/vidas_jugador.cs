@@ -36,7 +36,7 @@ public class vidas_jugador : MonoBehaviour
     {
         for (int i = 0; i < corazones.Length; i++)
         {
-            // Muestra coraz�n lleno si i es menor que la vida actual, sino muestra vac�o
+            // Muestra corazón lleno si i es menor que la vida actual, sino muestra vac�o
             if (i < vida)
             {
                 corazones[i].sprite = corazonLleno;
@@ -46,7 +46,7 @@ public class vidas_jugador : MonoBehaviour
                 corazones[i].sprite = corazonVacio;
             }
 
-            // Activa/desactiva el coraz�n seg�n si est� dentro del rango de vidaTotal
+            // Activa/desactiva el coraz�n seg�n si está dentro del rango de vidaTotal
             corazones[i].enabled = i < vidaTotal;
         }
     }
