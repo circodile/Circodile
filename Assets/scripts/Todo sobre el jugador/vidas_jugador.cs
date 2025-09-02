@@ -13,7 +13,6 @@ public class vidas_jugador : MonoBehaviour
 
     private void Start()
     {
-        ActualizarCorazones();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -23,7 +22,6 @@ public class vidas_jugador : MonoBehaviour
             // Resta una vida al jugador
             vida--;
             Debug.Log("Vida del jugador: " + vida);
-            ActualizarCorazones();
 
             if (vida <= 0)
             {
@@ -32,24 +30,6 @@ public class vidas_jugador : MonoBehaviour
         }
     }
 
-    void ActualizarCorazones()
-    {
-        for (int i = 0; i < corazones.Length; i++)
-        {
-            // Muestra corazón lleno si i es menor que la vida actual, sino muestra vac�o
-            if (i < vida)
-            {
-                corazones[i].sprite = corazonLleno;
-            }
-            else
-            {
-                corazones[i].sprite = corazonVacio;
-            }
-
-            // Activa/desactiva el coraz�n seg�n si está dentro del rango de vidaTotal
-            corazones[i].enabled = i < vidaTotal;
-        }
-    }
 
     public void PerderVida()
     {
@@ -63,7 +43,7 @@ public class vidas_jugador : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject); // Mantiene la vida al cambiar escena
+        DontDestroyOnLoad(this.gameObject);
     }
 
 }
