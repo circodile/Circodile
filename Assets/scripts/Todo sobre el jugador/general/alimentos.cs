@@ -106,7 +106,7 @@ public class Alimentos : MonoBehaviour
 
         sistemaSed.sed -= sistemaSed.velBajada * delta / 60f;
         sistemaSed.sed = Mathf.Clamp(sistemaSed.sed, 0, 100);
-       // Debug.Log($"sed actual: {sistemaSed.sed}");
+        Debug.Log($"sed actual: {sistemaSed.sed}");
 
         // Comer
         if (Input.GetKeyDown(KeyCode.E) && comidaCercana != null)
