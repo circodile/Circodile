@@ -96,6 +96,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -103,12 +116,12 @@ TextureImporter:
       name: "Ba\xF1o de Hombres-Recovered_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 192
+        x: 350
+        y: 57
+        width: 21
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +134,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "Ba\xF1o de Hombres-Recovered_1"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 109
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5fa446e4d8adf4e941ebe9b411040b
+      internalID: 2036991702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\xF1o de Hombres-Recovered_2"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 43
+        width: 90
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814290402014ac458fa06d11f0249c2
+      internalID: 389764418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\xF1o de Hombres-Recovered_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa3fc83b438c8048b151494160722a8
+      internalID: 1770569650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 126498bac8352484e936237e7646a09d
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +215,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       "Ba\xF1o de Hombres-Recovered_0": 4702340383073239648
+      "Ba\xF1o de Hombres-Recovered_1": 2036991702
+      "Ba\xF1o de Hombres-Recovered_2": 389764418
+      "Ba\xF1o de Hombres-Recovered_3": 1770569650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

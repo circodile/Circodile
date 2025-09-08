@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 
 public class Barras_ui : MonoBehaviour
@@ -27,3 +27,4 @@ public class Barras_ui : MonoBehaviour
         Hambre.value = alimentos.sistemaHambre.hambre;
     }
 }
+*/

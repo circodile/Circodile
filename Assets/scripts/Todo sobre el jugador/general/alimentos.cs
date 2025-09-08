@@ -51,7 +51,7 @@ public class Alimentos : MonoBehaviour
             sed += cantidad;
             sed = Mathf.Clamp(sed, 0, 100);
             mateActual--;
-            Debug.Log($"Bebiste. Sed actual: {sed}, Mate: {mateActual}");
+            //Debug.Log($"Bebiste. Sed actual: {sed}, Mate: {mateActual}");
         }
 
         public override void Comer(float cantidad) { } // No aplica
@@ -101,12 +101,12 @@ public class Alimentos : MonoBehaviour
 
         // Bajar hambre y sed con el tiempo
         sistemaHambre.hambre -= sistemaHambre.velBajada * delta / 60f;
-       // Debug.Log($"Hambre actual: {sistemaHambre.hambre}");
+        //Debug.Log($"Hambre actual: {sistemaHambre.hambre}");
         sistemaHambre.hambre = Mathf.Clamp(sistemaHambre.hambre, 0, 100);
 
         sistemaSed.sed -= sistemaSed.velBajada * delta / 60f;
         sistemaSed.sed = Mathf.Clamp(sistemaSed.sed, 0, 100);
-        Debug.Log($"sed actual: {sistemaSed.sed}");
+       // Debug.Log($"sed actual: {sistemaSed.sed}");
 
         // Comer
         if (Input.GetKeyDown(KeyCode.E) && comidaCercana != null)

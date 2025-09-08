@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // <- IMPORTANTE para cambiar de escena
+using UnityEngine.SceneManagement;  
 
 public class BoatManager : MonoBehaviour
 {
@@ -108,7 +108,7 @@ public class BoatManager : MonoBehaviour
         if (IsBoatComplete())
         {
             Debug.Log("¡Bote completado! Cargando escena 'Gano'...");
-            SceneManager.LoadScene("Gano"); // <- Aquí cargamos tu escena
+            SceneManager.LoadScene("Gano");  
         }
         else if (!builtSomething)
         {
