@@ -10676,7 +10676,7 @@ Transform:
   m_GameObject: {fileID: 596920321}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.74, y: 3.83, z: 0}
+  m_LocalPosition: {x: -1.74, y: 4.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11573,9 +11573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 926339931}
-  Sed: {fileID: 1443358570}
-  alimentos: {fileID: 805028006}
 --- !u!1 &680907533
 GameObject:
   m_ObjectHideFlags: 0
@@ -14088,7 +14085,7 @@ Transform:
   m_GameObject: {fileID: 805027999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.56, y: 25.4, z: 0}
+  m_LocalPosition: {x: -13.86, y: -1.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16825,9 +16822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 926339931}
-  Sed: {fileID: 1443358570}
-  alimentos: {fileID: 0}
 --- !u!1 &928633507
 GameObject:
   m_ObjectHideFlags: 0
@@ -17547,38 +17541,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1249037918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.413}
---- !u!1 &1007461907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1007461908}
-  m_Layer: 0
-  m_Name: sprites
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1007461908
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007461907}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1263034, y: -0.18311, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1990122594}
-  m_Father: {fileID: 1636246026}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1016150041
 GameObject:
   m_ObjectHideFlags: 0
@@ -17765,6 +17727,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1249037918}
+  - {fileID: 1965535110}
   - {fileID: 2003575304}
   - {fileID: 2133248168}
   - {fileID: 162248440}
@@ -20847,6 +20810,7 @@ Transform:
   - {fileID: 1016150043}
   - {fileID: 250592438}
   - {fileID: 1458425142}
+  - {fileID: 1725643938}
   m_Father: {fileID: 1024819331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1250365326
@@ -24800,9 +24764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 0}
-  Sed: {fileID: 0}
-  alimentos: {fileID: 0}
 --- !u!1 &1453294754
 GameObject:
   m_ObjectHideFlags: 0
@@ -25352,6 +25313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1487896958}
   - component: {fileID: 1487896957}
+  - component: {fileID: 1487896960}
   - component: {fileID: 1487896959}
   m_Layer: 0
   m_Name: AlgodonDeAzucar
@@ -25443,6 +25405,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorNutricional: 5
+--- !u!61 &1487896960
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487896956}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.5}
+    newSize: {x: 0.5, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_EdgeRadius: 0
 --- !u!1 &1487988227
 GameObject:
   m_ObjectHideFlags: 0
@@ -26520,9 +26528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 926339931}
-  Sed: {fileID: 1443358570}
-  alimentos: {fileID: 0}
 --- !u!1 &1546510495
 GameObject:
   m_ObjectHideFlags: 0
@@ -29092,9 +29097,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1007461908}
+  - {fileID: 1990122594}
   - {fileID: 1791946076}
-  - {fileID: 1725643938}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640121851
@@ -31018,7 +31022,7 @@ Transform:
   m_GameObject: {fileID: 1725643937}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2406006, y: 5.50566, z: 0}
+  m_LocalPosition: {x: -3.3541205, y: -25.992458, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31026,7 +31030,7 @@ Transform:
   - {fileID: 74486711}
   - {fileID: 1746613121}
   - {fileID: 336724611}
-  m_Father: {fileID: 1636246026}
+  m_Father: {fileID: 1249037918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1728557762
 GameObject:
@@ -35911,12 +35915,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7052565, w: 0.70895225}
   m_LocalPosition: {x: 1.1379, y: 11.58, z: 0}
-  m_LocalScale: {x: 2.7422876, y: 24.412022, z: 1}
+  m_LocalScale: {x: 2.7422879, y: 24.412022, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 429147308}
   - {fileID: 230929517}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1024819331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1966455819
 GameObject:
@@ -36551,7 +36555,7 @@ Transform:
   m_GameObject: {fileID: 1979224156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.97, y: 1.53, z: 0}
+  m_LocalPosition: {x: 2.78, y: 0.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36657,7 +36661,7 @@ GameObject:
   - component: {fileID: 1990122597}
   - component: {fileID: 1990122596}
   m_Layer: 0
-  m_Name: barras energia_1
+  m_Name: agua
   m_TagString: Agua
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36672,11 +36676,11 @@ Transform:
   m_GameObject: {fileID: 1990122593}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.3, y: -76.9, z: 0}
+  m_LocalPosition: {x: -7.1736965, y: -77.083115, z: 0}
   m_LocalScale: {x: 1.8125, y: 1.9625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1007461908}
+  m_Father: {fileID: 1636246026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1990122595
 SpriteRenderer:
@@ -40054,10 +40058,9 @@ SceneRoots:
   - {fileID: 1546068466}
   - {fileID: 824389844}
   - {fileID: 1203188662}
-  - {fileID: 2140859212}
   - {fileID: 1636246026}
-  - {fileID: 1965535110}
   - {fileID: 1024819331}
+  - {fileID: 2140859212}
   - {fileID: 14369070}
   - {fileID: 1057386501}
   - {fileID: 67758318}

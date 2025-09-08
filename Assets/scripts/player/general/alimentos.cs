@@ -123,6 +123,7 @@ public class Alimentos : MonoBehaviour
             if (sistemaSed.mateActual > 0)
             {
                 sistemaSed.Beber(20f);
+                Debug.Log("bebiste");
             }
             else
             {
