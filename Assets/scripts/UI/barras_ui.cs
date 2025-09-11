@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 
 public class Barras_ui : MonoBehaviour
@@ -39,3 +39,4 @@ public class Barras_ui : MonoBehaviour
         alimentos.sistemaHambre.hambre = Mathf.Clamp(alimentos.sistemaHambre.hambre + cantidad, 0, 100);
     }
 }
+*/

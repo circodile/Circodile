@@ -27,7 +27,7 @@ public class SonidoTeclaQ : MonoBehaviour
             }
             else
             {
-                Debug.Log("No hay agua en el mate, no suena el audio.");
+                Debug.Log("No hay agua en el mate");
             }
         }
     }

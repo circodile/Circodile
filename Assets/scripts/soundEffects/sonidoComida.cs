@@ -11,18 +11,23 @@ public class SonidoComida : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
-        {
             audioSource = gameObject.AddComponent<AudioSource>();
-        }
+
         audioSource.playOnAwake = false;
+
+        if (sonidoComida == null)
+            Debug.LogWarning("No hay AudioClip asignado en SonidoComida!");
     }
 
     void Update()
     {
         if (cercaDeComida && Input.GetKeyDown(KeyCode.E))
         {
-            audioSource.PlayOneShot(sonidoComida);
-            Debug.Log("Comiste y sonó el audio.");
+            if (sonidoComida != null)
+            {
+                audioSource.PlayOneShot(sonidoComida);
+                Debug.Log("Comiste y sonó el audio.");
+            }
         }
     }
 
@@ -31,6 +36,7 @@ public class SonidoComida : MonoBehaviour
         if (other.CompareTag("Comida"))
         {
             cercaDeComida = true;
+            Debug.Log("Entraste al trigger de comida.");
         }
     }
 
@@ -39,6 +45,7 @@ public class SonidoComida : MonoBehaviour
         if (other.CompareTag("Comida"))
         {
             cercaDeComida = false;
+            Debug.Log("Saliste del trigger de comida.");
         }
     }
 }

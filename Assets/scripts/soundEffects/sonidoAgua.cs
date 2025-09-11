@@ -22,7 +22,7 @@ public class SonidoAgua : MonoBehaviour
         if (cercaDeAgua && Input.GetKeyDown(KeyCode.E))
         {
             audioSource.PlayOneShot(sonidoAgua);
-            Debug.Log("Bebiste agua y sonó el audio.");
+            Debug.Log("cargaste agua");
         }
     }
 

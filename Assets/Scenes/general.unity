@@ -11713,9 +11713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 0}
-  Sed: {fileID: 0}
-  alimentos: {fileID: 0}
 --- !u!1 &680907533
 GameObject:
   m_ObjectHideFlags: 0
@@ -14233,11 +14230,7 @@ Transform:
   m_GameObject: {fileID: 805027999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -1.6, y: 21.9, z: 0}
-=======
-  m_LocalPosition: {x: -1.8, y: 22.1, z: 0}
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14424,8 +14417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9727304ccd8b7140a8043cdfd35b114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comidaCercana: {fileID: 1487896959}
-  bebidaCercana: {fileID: 1990122596}
+  sonidoComida: {fileID: 8300000, guid: 2fc25ac2c94a7c4499f41dd4ecdaa6d1, type: 3}
 --- !u!114 &805028007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17102,6 +17094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926339930}
   - component: {fileID: 926339931}
+  - component: {fileID: 926339932}
   m_Layer: 5
   m_Name: Hambre
   m_TagString: Untagged
@@ -17182,7 +17175,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
 --- !u!114 &926339932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17195,8 +17187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
 --- !u!1 &948498567
 GameObject:
   m_ObjectHideFlags: 0
@@ -20999,7 +20989,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1548882949}
   - {fileID: 590588314}
   - {fileID: 1810160747}
   - {fileID: 1133160422}
@@ -21032,16 +21021,11 @@ Transform:
   - {fileID: 717819330}
   - {fileID: 1966455821}
   - {fileID: 267555687}
-<<<<<<< HEAD
-  - {fileID: 1331522296}
   - {fileID: 2058994762}
   - {fileID: 1694494585}
-=======
-  - {fileID: 2058994762}
-  - {fileID: 1503975245}
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
   - {fileID: 1458425142}
   - {fileID: 1725643938}
+  - {fileID: 1503975245}
   m_Father: {fileID: 1024819331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1250365326
@@ -25604,7 +25588,7 @@ Transform:
   m_GameObject: {fileID: 1487896956}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.01, y: -1.18, z: 0}
+  m_LocalPosition: {x: -2.26, y: -1.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26825,9 +26809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hambre: {fileID: 926339931}
-  Sed: {fileID: 1443358570}
-  alimentos: {fileID: 0}
 --- !u!1 &1546510495
 GameObject:
   m_ObjectHideFlags: 0
@@ -27027,11 +27008,7 @@ PolygonCollider2D:
       - {x: 0.315, y: 0.04}
       - {x: 0.285, y: 0.089999996}
   m_UseDelaunayMesh: 0
-<<<<<<< HEAD
 --- !u!1 &1556585954
-=======
---- !u!1 &1548882948
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27039,33 +27016,21 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1556585955}
   - component: {fileID: 1556585956}
   m_Layer: 0
   m_Name: circo (4)
-=======
-  - component: {fileID: 1548882949}
-  - component: {fileID: 1548882950}
-  m_Layer: 0
-  m_Name: colisiones puerto
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &1556585955
-=======
---- !u!4 &1548882949
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1556585954}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.9999959, w: -0.0028804403}
@@ -27076,28 +27041,12 @@ Transform:
   m_Father: {fileID: 1725643938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.33}
 --- !u!61 &1556585956
-=======
-  m_GameObject: {fileID: 1548882948}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7046416, w: 0.70956343}
-  m_LocalPosition: {x: -19.66, y: -96.99, z: 0}
-  m_LocalScale: {x: 0.57705, y: 19.011423, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1249037918}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.601}
---- !u!61 &1548882950
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1556585954}
-=======
-  m_GameObject: {fileID: 1548882948}
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -38930,13 +38879,8 @@ Transform:
   m_GameObject: {fileID: 2058994760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70705044, w: 0.7071632}
-<<<<<<< HEAD
   m_LocalPosition: {x: -12.98, y: -53.9, z: 0}
   m_LocalScale: {x: 5.807567, y: 13.261146, z: 0.89393}
-=======
-  m_LocalPosition: {x: -12.98, y: -53.86, z: 0}
-  m_LocalScale: {x: 5.72708, y: 13.192396, z: 1}
->>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1249037918}
