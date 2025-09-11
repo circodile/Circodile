@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: circodile
+  productName: Circodile
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -291,7 +291,11 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
+<<<<<<< HEAD
       m_Icon: {fileID: 2800000, guid: 0ec8bd15718da8247a975012eb20d92d, type: 3}
+=======
+      m_Icon: {fileID: 2800000, guid: f1f660815d7a6a54cad6cdb789603a2b, type: 3}
+>>>>>>> 8545947f8c0bcb6ff7c0eecf639ea06b2379f17f
       m_Width: 128
       m_Height: 128
       m_Kind: 0

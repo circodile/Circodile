@@ -1,0 +1,881 @@
+fileFormatVersion: 2
+guid: 8c5d0f802877bf24989870da83a4933f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7284275751310413262
+    second: Logo Circodile color 1_0
+  - first:
+      213: 3889707838544969207
+    second: Logo Circodile color 1_1
+  - first:
+      213: -8539695030359728902
+    second: Logo Circodile color 1_2
+  - first:
+      213: -8612186878531192500
+    second: Logo Circodile color 1_3
+  - first:
+      213: 1057883288567798184
+    second: Logo Circodile color 1_4
+  - first:
+      213: 7308476445595120919
+    second: Logo Circodile color 1_5
+  - first:
+      213: 356118743687777334
+    second: Logo Circodile color 1_6
+  - first:
+      213: -8028765609789334933
+    second: Logo Circodile color 1_7
+  - first:
+      213: 3705680208323174835
+    second: Logo Circodile color 1_8
+  - first:
+      213: -2610744195751397836
+    second: Logo Circodile color 1_9
+  - first:
+      213: -1227077389017395236
+    second: Logo Circodile color 1_10
+  - first:
+      213: 7241428626877703711
+    second: Logo Circodile color 1_11
+  - first:
+      213: 2293460214619106942
+    second: Logo Circodile color 1_12
+  - first:
+      213: -5070545472468919979
+    second: Logo Circodile color 1_13
+  - first:
+      213: 8060840161760087102
+    second: Logo Circodile color 1_14
+  - first:
+      213: 1045574248133292571
+    second: Logo Circodile color 1_15
+  - first:
+      213: -4765801600414080275
+    second: Logo Circodile color 1_16
+  - first:
+      213: -9085037417286570387
+    second: Logo Circodile color 1_17
+  - first:
+      213: -8175133318308326550
+    second: Logo Circodile color 1_18
+  - first:
+      213: -1952757022606089438
+    second: Logo Circodile color 1_19
+  - first:
+      213: 8806142740497320380
+    second: Logo Circodile color 1_20
+  - first:
+      213: 2182633126939295810
+    second: Logo Circodile color 1_21
+  - first:
+      213: -6847375640911490595
+    second: Logo Circodile color 1_22
+  - first:
+      213: -9163193315244267679
+    second: Logo Circodile color 1_23
+  - first:
+      213: -2039227623650028069
+    second: Logo Circodile color 1_24
+  - first:
+      213: 5011566380664971452
+    second: Logo Circodile color 1_25
+  - first:
+      213: -1274614745285246264
+    second: Logo Circodile color 1_26
+  - first:
+      213: -3863737689791466199
+    second: Logo Circodile color 1_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo Circodile color 1_0
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2027
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd49dab332f61560800000000000000
+      internalID: 7284275751310413262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_1
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1922
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd768caba40bf530800000000000000
+      internalID: 3889707838544969207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_2
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 1126
+        width: 555
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc5d397d98ec7980800000000000000
+      internalID: -8539695030359728902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1051
+        width: 1019
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c493eddc9ad5b7880800000000000000
+      internalID: -8612186878531192500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_4
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1798
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9d7ecfe3b5eae00800000000000000
+      internalID: 1057883288567798184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_5
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1777
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b105fa9cec6560800000000000000
+      internalID: 7308476445595120919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_6
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1416
+        width: 585
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c4e5f4c1031f400800000000000000
+      internalID: 356118743687777334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_7
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 804
+        width: 512
+        height: 899
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a52a35738149090800000000000000
+      internalID: -8028765609789334933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_8
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1699
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b16c4414883d6330800000000000000
+      internalID: 3705680208323174835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_9
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 1051
+        width: 306
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43633dc7cf5c4cbd0800000000000000
+      internalID: -2610744195751397836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_10
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1218
+        width: 106
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf44b3bd9b88fee0800000000000000
+      internalID: -1227077389017395236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_11
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1627
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16e36b28f8be7460800000000000000
+      internalID: 7241428626877703711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_12
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1164
+        width: 324
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eecd6f9e104df10800000000000000
+      internalID: 2293460214619106942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_13
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1218
+        width: 115
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5595608f1cdc1a9b0800000000000000
+      internalID: -5070545472468919979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_14
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1402
+        width: 257
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c89e04b6bdddf60800000000000000
+      internalID: 8060840161760087102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_15
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 1239
+        width: 414
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12f74e2d30a28e00800000000000000
+      internalID: 1045574248133292571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_16
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 1559
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2a459d1b87cddb0800000000000000
+      internalID: -4765801600414080275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_17
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1523
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e60838a967be180800000000000000
+      internalID: -9085037417286570387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_18
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 936
+        width: 575
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6395ca8f871c8e80800000000000000
+      internalID: -8175133318308326550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_19
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 1188
+        width: 242
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2232ae685d966e4e0800000000000000
+      internalID: -1952757022606089438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_20
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1110
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb94ab06a24b53a70800000000000000
+      internalID: 8806142740497320380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_21
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1030
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240873ec3454a4e10800000000000000
+      internalID: 2182633126939295810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_22
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1071
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1decf222c39f0a0800000000000000
+      internalID: -6847375640911490595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_23
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 1065
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167a1ac7a3cc5d080800000000000000
+      internalID: -9163193315244267679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_24
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 886
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd51d24d74533b3e0800000000000000
+      internalID: -2039227623650028069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_25
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 907
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb063df1219ac8540800000000000000
+      internalID: 5011566380664971452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_26
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 779
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c24cc174a8af4ee0800000000000000
+      internalID: -1274614745285246264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_27
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 786
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925f0b6ca0f316ac0800000000000000
+      internalID: -3863737689791466199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Circodile color 1_28
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 643
+        width: 3832
+        height: 1573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55155b21961ebe4c9b45e5b8f0b8698
+      internalID: 1155757430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a01b3679d66c545458992f250f33462c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo Circodile color 1_0: 7284275751310413262
+      Logo Circodile color 1_1: 3889707838544969207
+      Logo Circodile color 1_10: -1227077389017395236
+      Logo Circodile color 1_11: 7241428626877703711
+      Logo Circodile color 1_12: 2293460214619106942
+      Logo Circodile color 1_13: -5070545472468919979
+      Logo Circodile color 1_14: 8060840161760087102
+      Logo Circodile color 1_15: 1045574248133292571
+      Logo Circodile color 1_16: -4765801600414080275
+      Logo Circodile color 1_17: -9085037417286570387
+      Logo Circodile color 1_18: -8175133318308326550
+      Logo Circodile color 1_19: -1952757022606089438
+      Logo Circodile color 1_2: -8539695030359728902
+      Logo Circodile color 1_20: 8806142740497320380
+      Logo Circodile color 1_21: 2182633126939295810
+      Logo Circodile color 1_22: -6847375640911490595
+      Logo Circodile color 1_23: -9163193315244267679
+      Logo Circodile color 1_24: -2039227623650028069
+      Logo Circodile color 1_25: 5011566380664971452
+      Logo Circodile color 1_26: -1274614745285246264
+      Logo Circodile color 1_27: -3863737689791466199
+      Logo Circodile color 1_28: 1155757430
+      Logo Circodile color 1_3: -8612186878531192500
+      Logo Circodile color 1_4: 1057883288567798184
+      Logo Circodile color 1_5: 7308476445595120919
+      Logo Circodile color 1_6: 356118743687777334
+      Logo Circodile color 1_7: -8028765609789334933
+      Logo Circodile color 1_8: 3705680208323174835
+      Logo Circodile color 1_9: -2610744195751397836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
