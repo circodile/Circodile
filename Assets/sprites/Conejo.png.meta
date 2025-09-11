@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 5676b88612167164a8779fecac2d6cf4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8199735774863387787
+    second: Conejo_0
+  - first:
+      213: 6268794911575859625
+    second: Conejo_1
+  - first:
+      213: -2503759404976931421
+    second: Conejo_2
+  - first:
+      213: -6264704117640998786
+    second: Conejo_3
+  - first:
+      213: -3452890844418781686
+    second: Conejo_4
+  - first:
+      213: -8122750119639764657
+    second: Conejo_5
+  - first:
+      213: -5407805783310194600
+    second: Conejo_6
+  - first:
+      213: -2418598138359133954
+    second: Conejo_7
+  - first:
+      213: 844519825553359487
+    second: Conejo_8
+  - first:
+      213: 8959070187938194018
+    second: Conejo_9
+  - first:
+      213: 2146736429906184873
+    second: Conejo_10
+  - first:
+      213: -2969136713310711316
+    second: Conejo_11
+  - first:
+      213: -622456070528436697
+    second: Conejo_12
+  - first:
+      213: -2250946727227188641
+    second: Conejo_13
+  - first:
+      213: 2075708054612006701
+    second: Conejo_14
+  - first:
+      213: 3324938723164791420
+    second: Conejo_15
+  - first:
+      213: 3674839334830099390
+    second: Conejo_16
+  - first:
+      213: 3187910826629335866
+    second: Conejo_17
+  - first:
+      213: 5769649629250947584
+    second: Conejo_18
+  - first:
+      213: 6798288251276378141
+    second: Conejo_19
+  - first:
+      213: 8946426178648208187
+    second: Conejo_20
+  - first:
+      213: 3833923406902470776
+    second: Conejo_21
+  - first:
+      213: 3660617581309200605
+    second: Conejo_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conejo_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 271
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573943fb1cfa43e80800000000000000
+      internalID: -8199735774863387787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 271
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1614232cb3ff650800000000000000
+      internalID: 6268794911575859625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 271
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad7e4f261cd04dd0800000000000000
+      internalID: -2503759404976931421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 207
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70d41dfbcc4f09a0800000000000000
+      internalID: -6264704117640998786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 207
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e483a321ed410d0800000000000000
+      internalID: -3452890844418781686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 207
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f413c976dc1364f80800000000000000
+      internalID: -8122750119639764657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 207
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8582e77ba4d93f4b0800000000000000
+      internalID: -5407805783310194600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 207
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8cea4bec96f6ed0800000000000000
+      internalID: -2418598138359133954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 143
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7202ef8e4658bb00800000000000000
+      internalID: 844519825553359487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 143
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26229d56ed2055c70800000000000000
+      internalID: 8959070187938194018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 143
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aac2fab86dbacd10800000000000000
+      internalID: 2146736429906184873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 143
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce15b81f3e18bc6d0800000000000000
+      internalID: -2969136713310711316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 143
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726fdd370879c57f0800000000000000
+      internalID: -622456070528436697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 83
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a9b4ba0e703c0e0800000000000000
+      internalID: -2250946727227188641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 81
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27d0946a756ecc10800000000000000
+      internalID: 2075708054612006701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 79
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72ad26072e842e20800000000000000
+      internalID: 3324938723164791420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 79
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb4e27a7e6aff230800000000000000
+      internalID: 3674839334830099390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_17
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 79
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b0ddca10cbd3c20800000000000000
+      internalID: 3187910826629335866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 15
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a87f5d4c9e11050800000000000000
+      internalID: 5769649629250947584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 15
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d104a0a452f585e50800000000000000
+      internalID: 6798288251276378141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 15
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33f4939537182c70800000000000000
+      internalID: 8946426178648208187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 15
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8782a7c8605d43530800000000000000
+      internalID: 3833923406902470776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conejo_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 18
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd80c70ab402dc230800000000000000
+      internalID: 3660617581309200605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Conejo_0: -8199735774863387787
+      Conejo_1: 6268794911575859625
+      Conejo_10: 2146736429906184873
+      Conejo_11: -2969136713310711316
+      Conejo_12: -622456070528436697
+      Conejo_13: -2250946727227188641
+      Conejo_14: 2075708054612006701
+      Conejo_15: 3324938723164791420
+      Conejo_16: 3674839334830099390
+      Conejo_17: 3187910826629335866
+      Conejo_18: 5769649629250947584
+      Conejo_19: 6798288251276378141
+      Conejo_2: -2503759404976931421
+      Conejo_20: 8946426178648208187
+      Conejo_21: 3833923406902470776
+      Conejo_22: 3660617581309200605
+      Conejo_3: -6264704117640998786
+      Conejo_4: -3452890844418781686
+      Conejo_5: -8122750119639764657
+      Conejo_6: -5407805783310194600
+      Conejo_7: -2418598138359133954
+      Conejo_8: 844519825553359487
+      Conejo_9: 8959070187938194018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

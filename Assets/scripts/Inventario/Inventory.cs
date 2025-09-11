@@ -1,16 +1,24 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
+    public TextMeshProUGUI mensajeTexto;
 
     public List<Item> items = new List<Item>();
-    public int maxSlots = 4; // ← limite de objetos
+    public int maxSlots = 4; // límite de objetos
+    public float mensajeDuracion = 5f; // duración de los mensajes en pantalla
+
+    // Variables para manejo de mensajes acumulativos
+    private Coroutine mensajeCoroutine;
+    private string mensajesAcumulados = "";
 
     void Awake()
     {
-        if (instance == null) 
+        if (instance == null)
         {
             instance = this;
         }
@@ -18,14 +26,13 @@ public class Inventory : MonoBehaviour
         {
             Destroy(gameObject);
         }
-            
     }
 
     public bool AddItem(Item newItem)
     {
         if (GetTotalItemCount() >= maxSlots)
         {
-            Debug.Log("Inventario lleno!");
+            MostrarMensajeTemporal("Inventario lleno!, Deja tus objetos en el barco.");
             return false;
         }
 
@@ -68,13 +75,38 @@ public class Inventory : MonoBehaviour
             Debug.LogWarning("No hay instancia de InventoryUI para actualizar");
         }
 
-        // 5. Retornar éxito/fracaso
-        if (!removalSuccess)
+        // 5. Mostrar mensaje en pantalla si fue removido correctamente
+        if (removalSuccess)
+        {
+            Debug.Log($"Se removió {itemToRemove.name} del inventario");
+        }
+        else
         {
             Debug.LogError($"Error inesperado al remover {itemToRemove.name}");
         }
 
         return removalSuccess;
     }
-}
 
+    // ---------- COROUTINE PARA MENSAJES ----------
+    private void MostrarMensajeTemporal(string texto)
+    {
+        // Acumula todos los mensajes
+        mensajesAcumulados += texto + "\n";
+
+        // Reinicia la coroutine si ya estaba corriendo
+        if (mensajeCoroutine != null)
+            StopCoroutine(mensajeCoroutine);
+
+        mensajeCoroutine = StartCoroutine(MostrarMensajeCoroutine());
+    }
+
+    private IEnumerator MostrarMensajeCoroutine()
+    {
+        mensajeTexto.text = mensajesAcumulados;
+        yield return new WaitForSeconds(mensajeDuracion);
+        mensajesAcumulados = "";
+        mensajeTexto.text = "";
+        mensajeCoroutine = null;
+    }
+}

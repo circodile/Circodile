@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78b6e4cc731525547a0fc58d0cb4e082, type: 3}
-  m_Name: NewScriptableObjectScript
+  m_Name: tela
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
   type: 0
   actionType: 0
   range: {x: 1, y: 1}
   stackable: 1
-  image: {fileID: 6738218706411903907, guid: 9870f2cb84c18f946bb068bea208e9f0, type: 3}
+  image: {fileID: 0}

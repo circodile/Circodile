@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b00f2f96c976658478be92a35e056c4b
+guid: d311a7d291736f443bea7d49b580d8b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7064700013643310622
-    second: Circo 3_0
+      213: -6824264930891730174
+    second: pixel-art-old-scroll-parchmentfantasy-260nw-2646428985_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Circo 3_0
+      name: pixel-art-old-scroll-parchmentfantasy-260nw-2646428985_0
       rect:
         serializedVersion: 2
-        x: 610
-        y: 525
-        width: 607
-        height: 67
+        x: 0
+        y: 24
+        width: 260
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e9d71a94c425fd90800000000000000
-      internalID: -7064700013643310622
+      spriteID: 203fa0da3375b41a0800000000000000
+      internalID: -6824264930891730174
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0efffcc7b1c5e4a4c95c01a129bde042
+    spriteID: c2391ccce9e89c0439f7a9efafe7eda1
     internalID: 0
     vertices: []
     indices: 
@@ -148,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Circo 3_0: -7064700013643310622
-      Circo 3_1: -394183917
-      Circo 3_2: 211202028
+      pixel-art-old-scroll-parchmentfantasy-260nw-2646428985_0: -6824264930891730174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

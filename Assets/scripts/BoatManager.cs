@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;  
+using TMPro;
+using System.Collections;  
 
 public class BoatManager : MonoBehaviour
 {
+    public TextMeshProUGUI mensajeTexto;
+
     [System.Serializable]
     public class BoatPart
     {
@@ -22,9 +26,19 @@ public class BoatManager : MonoBehaviour
     [Header("Configuración")]
     public float interactionDistance = 3f;
     public KeyCode buildKey = KeyCode.F;
+    public float mensajeDuracion = 5f; // Duración de los mensajes en pantalla
 
     private Transform player;
     private bool isPlayerNear;
+
+    // Variables para manejo de mensajes acumulativos
+    private Coroutine mensajeCoroutine;
+    private string mensajesAcumulados = "";
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); // Guarda el progreso del barco
+    }
 
     private void Start()
     {
@@ -94,10 +108,12 @@ public class BoatManager : MonoBehaviour
                     {
                         part.currentAmount += toAdd;
                         UpdatePartVisuals(part);
-                        Debug.Log($"Añadidos {toAdd} {part.requiredItem.name} al bote ({part.currentAmount}/{part.requiredAmount})");
+
+                        // Mensaje acumulativo en pantalla
+                        MostrarMensajeTemporal($"Añadidos {toAdd} {part.requiredItem.name} al barco ({part.currentAmount}/{part.requiredAmount})");
 
                         if (IsPartComplete(part))
-                            Debug.Log($"Parte {part.partName} completada");
+                            MostrarMensajeTemporal($"Parte {part.partName} completada");
 
                         builtSomething = true;
                     }
@@ -107,13 +123,34 @@ public class BoatManager : MonoBehaviour
 
         if (IsBoatComplete())
         {
-            Debug.Log("¡Bote completado! Cargando escena 'Gano'...");
-            SceneManager.LoadScene("Gano");  
+             
+            SceneManager.LoadScene("Gano");
         }
         else if (!builtSomething)
         {
-            Debug.Log("No tienes recursos suficientes para construir ninguna parte");
+            MostrarMensajeTemporal("No tienes recursos suficientes para construir");
         }
+    }
+
+    private void MostrarMensajeTemporal(string texto)
+    {
+        // Acumula todos los mensajes
+        mensajesAcumulados += texto + "\n";
+
+        // Reinicia la coroutine si ya estaba corriendo
+        if (mensajeCoroutine != null)
+            StopCoroutine(mensajeCoroutine);
+
+        mensajeCoroutine = StartCoroutine(MostrarMensajeCoroutine());
+    }
+
+    private IEnumerator MostrarMensajeCoroutine()
+    {
+        mensajeTexto.text = mensajesAcumulados;
+        yield return new WaitForSeconds(mensajeDuracion);
+        mensajesAcumulados = "";
+        mensajeTexto.text = "";
+        mensajeCoroutine = null;
     }
 
     private int CountItemsInInventory(Item item)
@@ -176,10 +213,4 @@ public class BoatManager : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, interactionDistance);
     }
-
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject); //Guarda el progreso del barco
-    }
-
 }
