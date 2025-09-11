@@ -9,6 +9,7 @@ TagManager:
   - Agua
   - Enemigo
   - Fuego
+  - Item
   layers:
   - Default
   - TransparentFX
