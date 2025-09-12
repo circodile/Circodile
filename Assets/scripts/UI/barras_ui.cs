@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Barras_ui : MonoBehaviour
@@ -9,7 +9,14 @@ public class Barras_ui : MonoBehaviour
 
     void Awake()
     {
-        if (alimentos == null) alimentos = Alimentos.Instancia ?? FindObjectOfType<Alimentos>();
+        if (alimentos == null)
+        {
+            alimentos = Alimentos.Instancia;
+            if (alimentos == null)
+            {
+                alimentos = Object.FindFirstObjectByType<Alimentos>();
+            }
+        }
     }
 
     void Start()
@@ -39,4 +46,3 @@ public class Barras_ui : MonoBehaviour
         alimentos.sistemaHambre.hambre = Mathf.Clamp(alimentos.sistemaHambre.hambre + cantidad, 0, 100);
     }
 }
-*/

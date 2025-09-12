@@ -11792,6 +11792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hambre: {fileID: 0}
+  Sed: {fileID: 0}
+  alimentos: {fileID: 0}
 --- !u!114 &678380591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14459,7 +14462,7 @@ Transform:
   m_GameObject: {fileID: 805027999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.84, y: -68.62, z: 0}
+  m_LocalPosition: {x: -3.84, y: -8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17262,6 +17265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hambre: {fileID: 0}
+  Sed: {fileID: 0}
+  alimentos: {fileID: 0}
 --- !u!1 &943773656
 GameObject:
   m_ObjectHideFlags: 0
@@ -27699,6 +27705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eda271ba29b6d40aa9ba1be7b06f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hambre: {fileID: 926339931}
+  Sed: {fileID: 1443358570}
+  alimentos: {fileID: 805028006}
 --- !u!1 &1546510495
 GameObject:
   m_ObjectHideFlags: 0
