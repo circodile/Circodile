@@ -1,8 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using TMPro;
 
 public class Alimentos : MonoBehaviour
 {
     public static Alimentos Instancia { get; private set; }
+
+    [Header("UI Mensajes")]
+    public TextMeshProUGUI mensajeTexto;
+    public float mensajeDuracion = 5f;  
+
+    private Coroutine mensajeCoroutine;
+    private string mensajesAcumulados = "";
 
     [Header("Audio")]
     public AudioClip sonidoComida;
@@ -32,7 +41,7 @@ public class Alimentos : MonoBehaviour
         {
             hambre += cantidad;
             hambre = Mathf.Clamp(hambre, 0, 100);
-            Debug.Log($"Comiste. Hambre actual: {hambre}");
+            Instancia.MostrarMensajeTemporal($"Comiste. Hambre actual: {hambre}");
         }
 
         public override void Beber(float cantidad) { }
@@ -55,7 +64,7 @@ public class Alimentos : MonoBehaviour
             sed += cantidad;
             sed = Mathf.Clamp(sed, 0, 100);
             mateActual--;
-            Debug.Log($"Bebiste. Sed actual: {sed}, Mate restante: {mateActual}");
+            Instancia.MostrarMensajeTemporal($"Bebiste. Sed actual: {sed}, Mate restante: {mateActual}");
         }
 
         public override void Comer(float cantidad) { }
@@ -113,7 +122,6 @@ public class Alimentos : MonoBehaviour
         sistemaSed.sed = Mathf.Clamp(sistemaSed.sed, 0, 100);
 
         // ---------------------- ACCIONES ----------------------
-        // Comer comida
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (cercaDeComida && comidaCercana != null)
@@ -128,15 +136,13 @@ public class Alimentos : MonoBehaviour
                 comidaCercana = null;
                 cercaDeComida = false;
             }
-            // Recargar mate
             else if (cercaDeAgua)
             {
                 sistemaSed.mateActual = sistemaSed.mateMaximo;
-                Debug.Log("Recargaste el mate.");
+                MostrarMensajeTemporal("Recargaste el mate.");
             }
         }
 
-        // Beber mate
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if (sistemaSed.mateActual > 0)
@@ -145,7 +151,7 @@ public class Alimentos : MonoBehaviour
             }
             else
             {
-                Debug.Log("¡No hay agua en el mate!");
+                MostrarMensajeTemporal("¡No hay agua en el mate!");
             }
         }
     }
@@ -177,5 +183,25 @@ public class Alimentos : MonoBehaviour
             cercaDeAgua = false;
             bebidaCercana = null;
         }
+    }
+
+    // ---------------------- COROUTINE PARA MENSAJES ----------------------
+    private void MostrarMensajeTemporal(string texto)
+    {
+        mensajesAcumulados += texto + "\n";
+
+        if (mensajeCoroutine != null)
+            StopCoroutine(mensajeCoroutine);
+
+        mensajeCoroutine = StartCoroutine(MostrarMensajeCoroutine());
+    }
+
+    private IEnumerator MostrarMensajeCoroutine()
+    {
+        mensajeTexto.text = mensajesAcumulados;
+        yield return new WaitForSeconds(mensajeDuracion);
+        mensajesAcumulados = "";
+        mensajeTexto.text = "";
+        mensajeCoroutine = null;
     }
 }
